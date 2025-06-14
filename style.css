@@ -1,87 +1,29 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    background: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
     color: #333;
-    scroll-behavior: smooth;
   }
   
-  header {
-    background: linear-gradient(to right, #1e90ff, #0077cc);
-    color: white;
-    padding: 4rem 1rem 2rem;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  .hero h1 {
+    font-size: 3.5rem;
   }
   
-  .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+  .hero h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
   
-  .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+  section {
+    scroll-margin-top: 80px; /* smooth scroll offset */
   }
   
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    color: white;
-    text-decoration: none;
+  .social-icons a {
     font-weight: 500;
+    text-decoration: none;
+    color: #1e90ff;
     transition: color 0.3s ease;
   }
   
-  nav a:hover {
-    color: #dff0ff;
-    text-decoration: underline;
-  }
-  
-  main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-  
-  .content-section {
-    background: white;
-    border-radius: 8px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
-  
-  h2 {
-    color: #1e90ff;
-    margin-bottom: 1rem;
-  }
-  
-  .project-list {
-    padding-left: 1.2rem;
-  }
-  
-  .project-list li {
-    margin-bottom: 0.75rem;
-  }
-  
-  a {
-    color: #1e90ff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    background: #eaeaea;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #555;
+  .social-icons a:hover {
+    color: #005fbb;
   }
   
