@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Reply | Praneeth Rangamudri</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .badge {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .video-wrapper {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <a href="../index.html" class="btn btn-outline-secondary mb-4">← Back to Portfolio</a>
+
+    <h1 class="text-primary fw-bold">Smart Email Reply — Gmail Add-on</h1>
+    <p class="lead">Gmail add-on that generates personalized AI-powered email replies using thread context, tone preferences, and custom user instructions.</p>
+
+    <hr class="my-4">
+
+    <h4>🔍 Overview</h4>
+    <p>
+        Composing effective email replies can be time-consuming, especially when dealing with long threads or the need to match specific tones. To address this, I collaborated with two teammates to develop Smart Email Reply, a Gmail add-on that uses Google’s Gemini API to generate intelligent, context-aware draft responses.
+    </p>
+    <p>
+        I developed prompt assembly and thread extraction algorithms that consolidate full conversation history into structured prompts, enabling the model to generate more personalized and relevant replies. The add-on allows users to select tone and language, add optional instructions (e.g., “Keep it concise” or “Reference Section 4”), and preserves attachments while integrating directly into Gmail via Google Apps Script. In informal testing with 10 users, 90% rated the responses as accurate and contextually appropriate.
+    </p>
+
+
+
+    <!-- Tools -->
+    <h4>⚙️ Tools & Technologies Used</h4>
+    <div class="mb-3">
+        <span class="badge bg-primary">Google Apps Script</span>
+        <span class="badge bg-info text-dark">Gemini API</span>
+        <span class="badge bg-secondary">Gmail API</span>
+    </div>
+
+
+
+
+    <h4>🎥 Demo Video</h4> <!--Will need to insert video in later -->
+    <div class="video-wrapper mb-4">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen class="w-100 h-100"></iframe>
+    </div>
+
+    <a href="https://github.com/jrang3/AI_Visualizer" class="btn btn-primary" target="_blank">View on GitHub</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

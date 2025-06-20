@@ -1,0 +1,3 @@
+# Ignore all video files in assets/videos/
+assets/videos/*.mp4
+assets/videos/*.mov

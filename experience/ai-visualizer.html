@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Visualizer | Praneeth Rangamudri</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .badge {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .video-wrapper {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <a href="../index.html" class="btn btn-outline-secondary mb-4">← Back to Portfolio</a>
+
+    <h1 class="text-primary fw-bold">Research Assistant @ UIUC — Civil & Environmental Engineering</h1>
+    <p class="lead">Developed a 3D AI Visualizer using Three.js and PyTorch to compare real vs AI-predicted stress values in vehicle models, with a built-in LLM assistant powered by Ollama 3.2 for interactive query support</p>
+
+    <hr class="my-4">
+
+    <h4>🔍 Motivation & Impact</h4>
+    <p>
+        Engineering simulations are computationally expensive and require expert interpretation. As part of my Research Assistantship in the Civil & Environmental Engineering department at UIUC, I developed a lightweight 3D visualizer to streamline vehicle stress analysis and support more efficient evaluation of AI-based predictive models.
+    </p>
+    <p>
+        The tool allows users to choose from one of four predefined vehicle meshes and upload their own trained AI model. It then renders a side-by-side comparison of real vs AI-predicted stress values on the selected mesh, enabling users to visually assess prediction accuracy, identify spatial anomalies, and explore error patterns through interactive 3D comparison. A built-in LLM assistant (powered by Ollama 3.2) supports natural language queries about stress magnitude, discrepancies, and model behavior — achieving 78.33% accuracy across 20 evaluation queries.
+    </p>
+
+
+
+
+    <h4>🛠 My Contributions</h4>
+    <ul>
+        <li>A Three.js-powered viewer for side-by-side mesh comparison with synchronized camera controls</li>
+        <li>A Flask backend that loads JSON-encoded simulation data and serves AI predictions using PyTorch</li>
+        <li>An LLM-based assistant (Ollama 3.2) that answers natural language questions about stress values and model discrepancies</li>
+        <li>Real-time color mapping of nodal values with dynamic gradient generation</li>
+        <li>Containerized both backend and frontend using Docker, orchestrated via Docker Compose</li>
+    </ul>
+
+    <h4>⚙️ Tools & Technologies Used</h4>
+    <div class="mb-3">
+        <span class="badge bg-primary">Three.js</span>
+        <span class="badge bg-secondary">PyTorch</span>
+        <span class="badge bg-dark">Flask</span>
+        <span class="badge bg-info text-dark">Ollama 3.2</span>
+        <span class="badge bg-success">JavaScript</span>
+        <span class="badge bg-warning text-dark">VTK</span>
+        <span class="badge bg-danger">Docker</span>
+        <span class="badge bg-danger">HTML</span>
+        <span class="badge bg-primary">CSS</span>
+    </div>
+
+
+    <h4>🎥 Demo Video</h4>
+    <div class="video-wrapper mb-4">
+        <iframe src="https://www.youtube.com/embed/7u_PBfqtwHU?rel=0" frameborder="0" allowfullscreen class="w-100 h-100"></iframe>
+    </div>
+
+
+   
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
