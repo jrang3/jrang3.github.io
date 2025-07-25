@@ -38,15 +38,18 @@
 
     <h4>🔍 Overview</h4>
     <p>
-        This project is a full-stack extension of my original Othello board recognition project developed for the Computational Photography (CS 445) course. 
-        While the original class project focused on detecting and classifying piece positions on an Othello board using various computer vision techniques, this web app builds on that foundation by adding end-to-end functionality, AI move prediction, and user interactivity.
+      This project is a full-stack extension of my original Othello board recognition project developed for the Computational Photography (CS 445) course.
+       While the original class project focused on detecting and classifying piece positions on an Othello board using various computer vision techniques, this web app builds on that foundation by adding end-to-end functionality, AI move prediction, and user interactivity.
     </p>
     <p>
-        Users can upload an image of a real-world Othello board. The backend uses OpenCV and piece classification logic to detect all positions, then runs a Minimax algorithm with alpha-beta pruning to compute the optimal move for both players. The result is visually rendered and delivered to the user through a modern React interface.
+      Users can upload an image of a real-world Othello board. The backend uses OpenCV and piece classification logic to detect all positions, then runs a Minimax algorithm with alpha-beta pruning to compute the optimal move for both players. It also overlays the computed moves directly onto the uploaded image using OpenCV. 
+      All submissions are stored in a SQLite database, enabling users to revisit previous results through a persistent history feature.
     </p>
     <p>
-        The app also supports a submission history via a SQLite database and displays the current game score. This project ties together CV, game AI, and full-stack development to create an interactive and intelligent board analysis tool.
+      The results are rendered and displayed through a modern React-based frontend, which provides responsive design, intuitive controls, and access to prior submissions. T
+      his project ties together computer vision, game AI, and full-stack web development — showcasing my ability to build both robust backends and engaging user interfaces.
     </p>
+
 
 
     <!-- Tools -->
